@@ -1,0 +1,17 @@
+{
+  "name": "sourcymj",
+  "owner": {
+    "name": "sourcyMJ"
+  },
+  "metadata": {
+    "description": "Личный маркетплейс sourcyMJ: рабочие агенты и дисциплина для Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "workbench",
+      "source": "./",
+      "description": "Четыре субагента (scout, grunt, deep-worker, verifier) и три скилла: оркестрация, дисциплина планирования и сбор проектных деклараций с наш.дом.рф.",
+      "version": "1.1.0"
+    }
+  ]
+}

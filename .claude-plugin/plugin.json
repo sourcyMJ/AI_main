@@ -1,11 +1,11 @@
 {
   "name": "workbench",
   "displayName": "Workbench — агенты и дисциплина",
-  "version": "1.0.0",
-  "description": "Четыре субагента (scout, grunt, deep-worker, verifier) и два скилла: дисциплина планирования и правило сбора проектных деклараций с наш.дом.рф.",
+  "version": "1.1.0",
+  "description": "Четыре субагента (scout, grunt, deep-worker, verifier) и три скилла: оркестрация, дисциплина планирования и сбор проектных деклараций с наш.дом.рф.",
   "author": {
     "name": "sourcyMJ"
   },
-  "repository": "https://github.com/sourcyMJ/Rent_intermark_search",
+  "repository": "https://github.com/sourcyMJ/AI_main",
   "license": "MIT"
 }
