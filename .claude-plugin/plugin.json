@@ -1,11 +1,12 @@
 {
   "name": "workbench",
   "displayName": "Workbench — агенты и дисциплина",
-  "version": "1.1.0",
-  "description": "Четыре субагента (scout, grunt, deep-worker, verifier) и три скилла: оркестрация, дисциплина планирования и сбор проектных деклараций с наш.дом.рф.",
+  "version": "1.2.0",
+  "description": "Четыре субагента, три скилла и обязательная приёмка: если в ходе менялись файлы, Claude не закончит, пока не прогонит verifier.",
   "author": {
     "name": "sourcyMJ"
   },
   "repository": "https://github.com/sourcyMJ/AI_main",
-  "license": "MIT"
+  "license": "MIT",
+  "hooks": "./hooks/hooks.json"
 }
