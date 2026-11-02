@@ -47,12 +47,12 @@ description: Сбор проектных деклараций застройщи
 ## Playwright для наш.дом.рф удалён и возвращать его не надо
 
 `download_declarations()` в Горне против сайта не прогонялась вообще, а
-`scrape/kapelskiy2/pd_fetch.py` и `scrape/siti2/pd_fetch.py` были её
+`scrape/kapelskiy2/pd_fetch.py` и `scrape/siti2/pd_fetch.py` (удалены, их папки теперь в Consulting) были её
 копиями с ложной пометкой «метод проверенный». Данные для тех отчётов на
 деле собирались через Claude in Chrome. Все три места удалены.
 
 **Исключение:** ЕРЗ.РФ — другой сайт, там Playwright работает и нужен
-(`scrape/erz_parser.py`). Его не трогать.
+(`common/erz_parser.py` в Consulting). Его не трогать.
 
 ## Ритм расчётов
 
